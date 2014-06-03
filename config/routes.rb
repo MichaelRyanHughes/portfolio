@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+
+  root to: "home#index"
+
+  get "sound", to: "sound#index"
+  get "code", to: "code#index"
+  get "about", to: "about#index"
+  get "composition", to: "composition#index"
+  get "production", to: "production#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
