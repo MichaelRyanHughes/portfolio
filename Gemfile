@@ -14,6 +14,7 @@ gem 'spring',        group: :development
 gem 'slim'
 gem 'json'
 gem 'pry'
+gem 'devise'
 
 
 # Use ActiveModel has_secure_password
