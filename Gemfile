@@ -15,6 +15,7 @@ gem 'slim'
 gem 'json'
 gem 'pry'
 gem 'devise'
+gem "paperclip", "~> 4.1"
 
 
 # Use ActiveModel has_secure_password

@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get "production", to: "production#index"
   get "admin", to: "users#index"
 
+  resources :album
+  resources :user
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
