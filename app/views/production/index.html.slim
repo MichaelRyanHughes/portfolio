@@ -7,7 +7,7 @@ p
     h3
       = album.title
     .album_art  
-      //= image_tag album.artwork
+      = image_tag album.image(:small)
     p
       = album.description
 
