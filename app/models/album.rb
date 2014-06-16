@@ -1,4 +1,4 @@
 class Album < ActiveRecord::Base
-  has_attached_file :photo, :styles => {small: "150x150>"}
-  validates_attachment_content_type :photo, :content_type => /\Aimage\/.*\Z/
+  has_attached_file :image, :styles => {small: "400x400#"}
+  validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 end
