@@ -7,4 +7,8 @@ class ProductionController < ApplicationController
   def create
     Album.create params [:album].permit[:title, :description, :artwork]
   end
+
+  def show
+  end
+
 end
