@@ -1,0 +1,12 @@
+= render partial: "layouts/header.html.slim"
+= link_to "Log-out", destroy_user_session_path, :method => :delete
+
+h1
+  | Sound / Studio Work
+.albums
+  - @albums.each do |album|
+    .album_art  
+      = image_tag album.image(:small)
+    .title
+      = album.title.upcase
+      = "#{" - " + album.description}"
