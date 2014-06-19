@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root to: "home#index"
   devise_for :users
   get "sound", to: "sound#index"
@@ -8,7 +9,8 @@ Rails.application.routes.draw do
   get "about", to: "about#index"
   get "composition", to: "composition#index"
   get "production", to: "production#index"
-  get "admin", to: "users#edit"
+  get '/album/:id', to: "users#edit"
+  #get "admin", to: "users#edit"
   #get "admin/edit", to: "users#edit"
 
   resources :album
