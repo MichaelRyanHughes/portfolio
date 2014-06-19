@@ -4,10 +4,9 @@ p
 
 .albums
   - @albums.each do |album|
-    h3
-      = album.title
     .album_art  
       = image_tag album.image(:small)
+    h3
+      = album.title
     p
       = album.description
-

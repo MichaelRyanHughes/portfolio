@@ -8,10 +8,11 @@ Rails.application.routes.draw do
   get "about", to: "about#index"
   get "composition", to: "composition#index"
   get "production", to: "production#index"
-  get "admin", to: "users#index"
+  get "admin", to: "users#edit"
+  #get "admin/edit", to: "users#edit"
 
   resources :album
-  resources :user
+  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
