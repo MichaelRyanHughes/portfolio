@@ -3,3 +3,8 @@ p
   = link_to "Back to Sound", sound_path
 p
   | Composition Page
+
+  - @compositions.each do |comp|
+     h1
+      = comp.title
+     img src= comp.vimeo_thumbnail
