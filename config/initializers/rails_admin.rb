@@ -16,6 +16,30 @@ RailsAdmin.config do |config|
 
   ### More at https://github.com/sferik/rails_admin/wiki/Base-configuration
 
+    config.model 'Composition' do
+      field :title do
+        label "Title"
+      end
+      field :vimeo_id do
+        label "Vimeo ID Number"
+      end
+      field :vimeo_thumbnail do
+        label "Thumbnail"
+      end
+    end
+
+    config.model 'Album' do 
+      field :title do 
+        label "Title"
+      end
+      field :description do 
+        label "Role"
+      end
+      field :image do
+        label "Artwork"
+      end
+    end
+
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
@@ -31,4 +55,6 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+
 end
