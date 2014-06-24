@@ -1,3 +1,8 @@
 = render partial: "layouts/header.html.slim"
 p
   | Code
+
+- @codes.each do |code|
+  h1
+    =link_to code.title, code.url
+  = image_tag code.image
