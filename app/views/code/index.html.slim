@@ -3,6 +3,6 @@ p
   | Code
 
 - @codes.each do |code|
-  h1
-    =link_to code.title, code.url
+  =link_to code.title, code.url
+  .screenshot
   = image_tag code.image
