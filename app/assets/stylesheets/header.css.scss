@@ -1,0 +1,35 @@
+body {
+  margin-top: -17px;
+  margin-left: 0px;
+  .container {
+    .left {
+      width: 50%;
+      height: 100%;
+      position: fixed;
+      background-color: red;
+      h1 {
+        font-family: helvetica;
+        margin: 10px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      position: fixed;
+      background-color: white;
+      margin-left: 50%;
+      ul{
+        list-style: none;
+        width: 50%
+        li {
+          display: block;
+          float: left;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
