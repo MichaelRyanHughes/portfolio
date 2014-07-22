@@ -1,0 +1,30 @@
+.sound_navigation {
+  font-family: helvetica;
+  width: 50%;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 80px;
+  float: left;
+  background-color: black;
+  ul {
+    list-style: none;
+    li {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: white;
+      text-align: center;
+      display: inline-block;
+      width: 33%;
+      a {
+        text-decoration: none;
+        &:visited {
+          color: white;
+        }
+        &:hover {
+          color: black;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

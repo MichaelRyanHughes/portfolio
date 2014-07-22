@@ -1,12 +1,10 @@
-= render partial: "layouts/header.html.slim"
-p
- = link_to "Back to Sound", sound_path
-
-.albums
-  - @albums.each do |album|
-    .album_art  
-      = image_tag album.image(:small)
-    h3
-      = album.title
-    p
-      = album.description
+= render partial: "layouts/sound.html.slim"
+.content
+  .albums
+    - @albums.each do |album|
+      .album_art  
+        = image_tag album.image(:small)
+      h3
+        = album.title
+      p
+        = album.description

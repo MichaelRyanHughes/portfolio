@@ -1,5 +1,4 @@
 class Composition < ActiveRecord::Base
-
   require 'open-uri'
     before_save :get_thumbnail
 
