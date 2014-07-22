@@ -2,7 +2,13 @@
   .left
     h1
       = link_to "MIKE HUGHES", root_path
-  .right
+  .home_tag
+    = link_to root_url do
+      = image_tag 'home_icon.png'
+  .mail_tag
+    = link_to "mailto:michaelryanhughes@gmail.com" do
+      = image_tag 'mail_icon.png'
+  .navigation
       ul
         li = link_to "about", about_path
         li = link_to "sound", sound_path
