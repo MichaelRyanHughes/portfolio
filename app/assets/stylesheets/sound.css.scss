@@ -1,28 +1,31 @@
+@import "mixins/color";
+
 .sound_navigation {
-  font-family: helvetica;
+  font-family: futura;
+  font-size: 14px;
   width: 50%;
   position: fixed;
   margin-left: 50%;
-  margin-top: 80px;
+  margin-top: 0px;
   float: left;
-  background-color: black;
+  background-color: $red;
   ul {
     list-style: none;
     li {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 7px;
+      margin-bottom: 8px;
       color: white;
       text-align: center;
       display: inline-block;
       width: 33%;
+      letter-spacing: 2px;
       a {
         text-decoration: none;
         &:visited {
           color: white;
         }
         &:hover {
-          color: black;
-          background-color: white;
+          color: $blue; 
         }
       }
     }
