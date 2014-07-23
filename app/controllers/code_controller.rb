@@ -5,7 +5,7 @@ class CodeController < ApplicationController
   end
 
   def create
-    Code.create params [:code].permit[:title, :url]
+    Code.create params [:code].permit[:title, :url, :image]
   end
 
   def show

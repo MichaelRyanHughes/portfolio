@@ -1,8 +1,33 @@
+@import "mixins/color";
+
 .content {
   margin-left: 50%;
-  margin-top: 10%;
-  float: left; 
+  margin-top: 4%;
+  float: left;
   padding-left: 3.2%;
   .albums {
+    h3 {
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: bolder;
+    font-size: 22px;
+    color: $blue;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    }
+    p {
+      font-family: futura;
+      color: gray;
+      padding-bottom: 10px;
+      margin-left: 0px;
+      letter-spacing: 1px;
+      font-size: 14px;
+      padding-top: 4px;
+    }
+    .album_art {
+      padding-bottom: 30px;
+    }
   }
 }
