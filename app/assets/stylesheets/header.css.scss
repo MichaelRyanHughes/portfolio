@@ -1,5 +1,17 @@
 @import "mixins/color";
 
+.header_bar {
+  font-family: futura;
+  font-size: 14px;
+  width: 50%;
+  height: 29px;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 0px;
+  float: left;
+  background-color: $red;
+}
+
 body {
   margin-top: -17px;
   margin-left: 0px;

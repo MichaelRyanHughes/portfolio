@@ -7,12 +7,17 @@
     |  out of american walnut instead of african walnut. i can do many 
     | things.
 
+.inst
+  | instagram
+.arrow
+  img src= 'assets/custom_arrow-01.png'
+
+
 .instagram_label
   h3
-    =link_to 'my instagram feed', "https://instagram.com/michaelryanhughes"
-  .arrow
-    =image_tag 'custom_arrow-01.png'
+    =link_to "my instagram feed", "https://instagram.com/michaelryanhughes"
 
 .images
   - @image_urls.each do |i|
     img src= "#{i}"
+

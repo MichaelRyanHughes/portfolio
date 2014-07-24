@@ -1,11 +1,2 @@
 = render partial: "layouts/sound.html.slim"
-
-.thumbnail_container
-  .thumbnail
-  - @compositions.each do |comp|
-     h1
-      = comp.title
-      p 
-        | composer
-      //= comp.role
-     img src= comp.vimeo_thumbnail
+= render partial: "layouts/composition.html.slim"

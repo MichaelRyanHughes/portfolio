@@ -1,5 +1,18 @@
 @import "mixins/color";
 
+.bio {
+  float: left;
+  position: fixed;
+  color: $light_gray;
+  margin-top: 25%;
+  margin-right: 54%;
+  margin-left: 3%;
+  font-family: futura;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 37px;
+}
+
 .sound_navigation {
   font-family: futura;
   font-size: 14px;
