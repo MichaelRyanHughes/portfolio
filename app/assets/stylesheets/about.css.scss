@@ -13,37 +13,57 @@
   line-height: 37px;
 }
 
-.instagram_label {
-  float: left;
-  position: fixed;
-  margin-top: 50%;
-  margin-left: 34%;
-  margin-right: 50%;
+.inst {
   font-family: futura;
-  font-size: 20px;
-  .arrow {
-    margin-top: -1.2%;
-    position: fixed;
-    margin-left: 12%;
+  font-size: 21px;
+  letter-spacing: 3px;
+  position: fixed;
+  color: #f48365;
+  margin-top: 690px;
+  float: right;
+  margin-left: 36%;
+}
+.arrow {
+  margin-top: 686px;
+  float: right;
+  margin-left: 45%;
+  position: fixed;
+  img {
+    width: 35px;
+    height: 35px;
   }
+}
+
+.instagram_label {
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 87%;
+  margin-right: 50%;
+  float: right;
+  width: 40%;
   h3 {
-    color: $peach;
-    &:hover {
-      color: $red;
-    }
-  }
-  a {
-    text-decoration: none;
-    &:visited {
-      color: $peach;
+    color: white;
+    font-family: futura;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+    a {
+      text-decoration: none;
+      &:visited {
+        color: white;
+      }
+      &:hover {
+        color: $blue;
+      }
     }
   }
 }
 
+
 .images {
   margin-left: 50%;
   padding-left: 3.2%;
-  padding-top: 2%;
+  padding-top: 3%;
   img {
     padding-top: 15px;
     padding-right: 15px;
