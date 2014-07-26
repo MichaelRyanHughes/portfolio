@@ -1,0 +1,10 @@
+= render partial: "layouts/sound.html.slim"
+.content
+  .albums
+    - @albums.each do |album|
+      h3
+        = album.title
+      p
+        = album.description
+      .album_art  
+        = image_tag album.image(:small)

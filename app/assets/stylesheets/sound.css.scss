@@ -1,0 +1,46 @@
+@import "mixins/color";
+
+.bio {
+  float: left;
+  position: fixed;
+  color: $light_gray;
+  margin-top: 25%;
+  margin-right: 54%;
+  margin-left: 3%;
+  font-family: futura;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 37px;
+}
+
+.sound_navigation {
+  font-family: futura;
+  font-size: 14px;
+  width: 50%;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 0px;
+  float: left;
+  background-color: $red;
+  ul {
+    list-style: none;
+    li {
+      margin-top: 7px;
+      margin-bottom: 8px;
+      color: white;
+      text-align: center;
+      display: inline-block;
+      width: 33%;
+      letter-spacing: 2px;
+      a {
+        text-decoration: none;
+        &:visited {
+          color: white;
+        }
+        &:hover {
+          color: $blue; 
+        }
+      }
+    }
+  }
+}

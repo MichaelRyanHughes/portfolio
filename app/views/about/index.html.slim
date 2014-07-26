@@ -1,0 +1,23 @@
+.bio
+  p
+    | i can take your house apart. i can design and build you a new one.
+    |  i can make you a website so you can write a blog detailing your renovation, and post progress photos.
+    |  i can write a song about how depressed you were
+    |  when you found out your kitchen cabinets would have to be made
+    |  out of american walnut instead of african walnut. i can do many 
+    | things.
+
+.inst
+  | instagram
+.arrow
+  img src= 'assets/custom_arrow-01.png'
+
+
+.instagram_label
+  h3
+    =link_to "my instagram feed", "https://instagram.com/michaelryanhughes"
+
+.images
+  - @image_urls.each do |i|
+    img src= "#{i}"
+

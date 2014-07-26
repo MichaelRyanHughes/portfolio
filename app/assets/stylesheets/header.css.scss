@@ -1,0 +1,109 @@
+@import "mixins/color";
+
+.header_bar {
+  font-family: futura;
+  font-size: 14px;
+  width: 50%;
+  height: 29px;
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 0px;
+  float: left;
+  background-color: $red;
+}
+
+body {
+  margin-top: -17px;
+  margin-left: 0px;
+  .container {
+    font-family: futura;
+    .left {
+      width: 50%;
+      height: 100%;
+      position: fixed;
+      background-color: $blue;
+      h1 {
+        font-family: futura;
+        font-weight: bold;
+        margin: 10px;
+        margin-top: 20px;
+        font-size: 100px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+    .home_tag {
+      float: right;
+      display: inline-block;
+      position: fixed;
+      width: 86px;
+      height: 30px;
+      background-color: $red;
+      margin-left: 44%;
+        &:hover {
+          background-color: gray;
+          }
+      img {
+        padding-top: 5px;
+        padding-left: 8px;
+        width: 22px;
+        height: 18px;
+      }
+    }
+    .mail_tag {
+      float: right;
+      display: inline-block;
+      position: fixed;
+      width: 86px;
+      height: 30px;
+      background-color: $peach;
+      margin-left: 44%;
+      margin-top: 2%;
+        &:hover {
+          background-color: gray;
+        }
+      img {
+        padding-top: 6px;
+        padding-left: 10px;
+        width: 18px;
+      }
+    }
+    .navigation {
+      width: 50%;
+      position: fixed;
+      background-color: $blue;
+      margin-left: 0%;
+      margin-top: 15%;
+      height: 0%;
+      ul{
+        list-style: none;
+        margin-top: 4%;
+        border-top-style: solid;
+        border-top-color: white;
+        border-top-width: 2px;
+        li {
+          text-align: center;
+          display: inline-block;
+          width: 25%;
+          padding-top: 1%;
+          padding-bottom: 8px;
+          letter-spacing: 2px;
+          &:hover {
+            background-color: $red;
+            color: $blue;
+          }
+          a {
+            color: white;
+            text-decoration: none;
+            &:visited {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

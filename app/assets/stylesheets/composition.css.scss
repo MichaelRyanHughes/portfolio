@@ -1,0 +1,30 @@
+@import "mixins/color";
+
+.thumbnail_container {
+  margin-left: 50%;
+  padding-left: 3.2%;
+  margin-top: 4%;
+  float: left;
+  h1 {
+    font-family: helvetica;
+    font-weight: bold;
+    font-style: bolder;
+    font-size: 22px;
+    color: $blue;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    letter-spacing: 2px;
+  }
+  p {
+    font-family: futura;
+    color: gray;
+    padding-bottom: 6px;
+    margin-left: 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-top: 4px;
+  }
+  .thumbnail {
+  }
+}

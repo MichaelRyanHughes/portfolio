@@ -1,4 +1,21 @@
 Rails.application.routes.draw do
+
+  
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  root to: "home#index"
+  devise_for :users
+  get "sound", to: "sound#index"
+  get "code", to: "code#index"
+  get "about", to: "about#index"
+  get "composition", to: "composition#index"
+  get "production", to: "production#index"
+  get '/album/:id', to: "users#edit"
+  #get "admin", to: "users#edit"
+  #get "admin/edit", to: "users#edit"
+
+  resources :album
+  resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

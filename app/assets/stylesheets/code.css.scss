@@ -1,0 +1,26 @@
+@import "mixins/color";
+
+.code_container {
+  margin-left: 50%;
+  margin-top: 4%;
+  float: left;
+  padding-left: 3.2%;
+  a {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: $blue;
+    margin-bottom: 10px;
+    &:visited {
+      color: $blue;
+    }
+    &:hover {
+      color: $peach;
+    }
+  }
+  .screenshot {
+    padding-bottom: 30px;
+  }
+}
