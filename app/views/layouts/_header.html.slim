@@ -7,7 +7,7 @@
     = link_to root_url do
       = image_tag 'home_icon.png'
   .mail_tag
-    = link_to "mailto:michaelryanhughes@gmail.com" do
+    = link_to "mailto:michaelryanhughes@gmail.com", target: "_blank" do 
       = image_tag 'mail_icon.png'
   .navigation
       ul
@@ -15,4 +15,4 @@
         li = link_to "sound", sound_path
         li = link_to "code", code_path
         li 
-          a href= "mailto:michaelryanhughes@gmail.com" contact
+          a href= "mailto:michaelryanhughes@gmail.com" target= "_blank" contact 
