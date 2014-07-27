@@ -1,5 +1,28 @@
 @import "mixins/color";
 
+.projects {
+  font-family: futura;
+  font-size: 21px;
+  letter-spacing: 3px;
+  position: fixed;
+  color: #f48365;
+  margin-top: 690px;
+  float: right;
+  margin-left: 38%;
+}
+.arrow {
+  margin-top: 686px;
+  float: right;
+  margin-left: 45%;
+  position: fixed;
+  img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+
+
 .code_container {
   margin-left: 50%;
   margin-top: 4%;
