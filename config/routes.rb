@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get "composition", to: "composition#index"
   get "production", to: "production#index"
   get '/album/:id', to: "users#edit"
+  get "squares", to: "squares#index"
   #get "admin", to: "users#edit"
   #get "admin/edit", to: "users#edit"
 

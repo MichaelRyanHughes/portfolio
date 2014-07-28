@@ -4,7 +4,7 @@
   float: left;
   position: fixed;
   color: $light_gray;
-  margin-top: 25%;
+  margin-top: 350px;
   margin-right: 54%;
   margin-left: 3%;
   font-family: futura;
@@ -14,25 +14,26 @@
 }
 
 .inst {
-  font-family: futura;
-  font-size: 21px;
-  letter-spacing: 3px;
-  position: fixed;
-  color: #f48365;
-  margin-top: 690px;
-  float: right;
-  margin-left: 36%;
-}
-.arrow {
-  margin-top: 686px;
-  float: right;
-  margin-left: 45%;
-  position: fixed;
+  h2 {
+    font-family: futura;
+    font-size: 21px;
+    letter-spacing: 3px;
+    position: fixed;
+    color: #f48365;
+    margin-top: 690px;
+    float: right;
+    margin-left: 36%;
+  }
   img {
+    margin-top: 686px;
+    float: right;
+    margin-left: 45%;
+    position: fixed;
     width: 35px;
     height: 35px;
   }
 }
+
 
 .instagram_label {
   position: fixed;
