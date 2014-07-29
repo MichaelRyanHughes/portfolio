@@ -35,6 +35,26 @@ body {
           margin-right: 20%;
         }
       }
+
+      .label {
+        position: fixed;
+        width: 150px;
+        height: 100px;
+        display: block;
+        bottom: 0;
+        right: 50%;
+        z-index: 0;
+        h2 {
+          color: $peach;
+          font-size: 20px;
+          letter-spacing: 3px;
+          margin-bottom: -25px;
+        }
+        img {
+          padding-left: 110px;
+          width: 35px;
+        }
+      }
     }
     .home_tag {
       float: right;
@@ -106,6 +126,18 @@ body {
           }
         }
       }
+    }
+    .bio {
+      float: left;
+      position: fixed;
+      color: $light_gray;
+      margin-top: 350px;
+      margin-right: 54%;
+      margin-left: 3%;
+      font-family: futura;
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 37px;
     }
   }
 }

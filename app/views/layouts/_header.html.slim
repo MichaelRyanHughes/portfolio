@@ -3,6 +3,10 @@
   .left
     h1
       = link_to "MIKE HUGHES", root_path
+    .label
+      h2
+        = yield :label
+      img src= 'assets/custom_arrow-01.png'
   .home_tag
     = link_to root_url do
       = image_tag 'home_icon.png'
@@ -15,4 +19,7 @@
         li = link_to "sound", sound_path
         li = link_to "code", code_path
         li 
-          a href= "mailto:michaelryanhughes@gmail.com" target= "_blank" contact 
+          a href= "mailto:michaelryanhughes@gmail.com" target= "_blank" contact
+  .bio
+    p
+      = yield :write_up
