@@ -1,9 +1,12 @@
 .thumbnail_container
-  .thumbnail
   - compositions.each do |comp|
-     h1
-      = comp.title
-      p 
-        | composer
-      //= comp.role
-     img src= comp.vimeo_thumbnail
+    = render partial: 'layouts/video_player', locals: { comp: comp }
+    .thumbnail
+        h1 
+          = comp.title
+        p 
+          | composer
+        //= comp.role
+        img src= comp.vimeo_thumbnail
+          .title
+            a.play-button href= "##{comp.vimeo_id}" &#x25b6
