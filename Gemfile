@@ -19,6 +19,7 @@ gem 'devise'
 gem "paperclip", "~> 4.1"
 gem 'rails_admin'
 gem 'aws-sdk'
+gem 'newrelic_rpm'
 
 
 # Use ActiveModel has_secure_password
